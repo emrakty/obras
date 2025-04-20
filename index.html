@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBRAŞ Bilezik - İletişim</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #1e90ff, #87cefa); /* Görseldeki mavi arka plan */
+            color: #000;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 300px; /* Logonun boyutunu ayarlayabilirsiniz */
+            height: auto;
+            margin-bottom: 2rem;
+        }
+
+        .contact-section {
+            margin-top: 2rem;
+        }
+
+        .contact-item {
+            margin-bottom: 2rem;
+        }
+
+        .contact-item h2 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 400;
+        }
+
+        .contact-item p {
+            font-family: 'Arial', sans-serif; /* İçerik için daha sade bir font */
+            font-size: 1.2rem;
+        }
+
+        .contact-item a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobil uyumluluk */
+        @media (max-width: 600px) {
+            header img {
+                max-width: 200px; /* Mobilde logo boyutunu küçült */
+            }
+
+            .contact-item h2 {
+                font-size: 1.8rem;
+            }
+
+            .contact-item p {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/logo.png" alt="OBRAŞ Bilezik Logo">
+        </header>
+        <main>
+            <section class="contact-section">
+                <div class="contact-item">
+                    <h2>Adresimiz</h2>
+                    <p>Anafartalar Caddesi Konya Sokak No:9/10 Ulus - ANKARA</p>
+                </div>
+                <div class="contact-item">
+                    <h2>Telefon</h2>
+                    <p>0312 311 39 28 - 324 53 63</p>
+                </div>
+                <div class="contact-item">
+                    <h2>Mobil İletişim</h2>
+                    <p><a href="tel:+905340810202">+90 534 081 02 02</a></p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
