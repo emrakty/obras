@@ -13,7 +13,7 @@
         }
 
         body {
-            background: linear-gradient(to bottom, #1e90ff, #87cefa); /* Görseldeki mavi arka plan */
+            background: #fff; 
             color: #000;
             line-height: 1.6;
             min-height: 100vh;
@@ -29,7 +29,7 @@
         }
 
         header img {
-            max-width: 300px; /* Logonun boyutunu ayarlayabilirsiniz */
+            max-width: 300px; 
             height: auto;
             margin-bottom: 2rem;
         }
@@ -50,7 +50,7 @@
         }
 
         .contact-item p {
-            font-family: 'Arial', sans-serif; /* İçerik için daha sade bir font */
+            font-family: 'Arial', sans-serif;
             font-size: 1.2rem;
         }
 
@@ -63,10 +63,28 @@
             text-decoration: underline;
         }
 
+        .privacy-policy {
+            margin-top: 3rem;
+            text-align: left;
+        }
+
+        .privacy-policy h2 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .privacy-policy p {
+            font-family: 'Arial', sans-serif;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
         /* Mobil uyumluluk */
         @media (max-width: 600px) {
             header img {
-                max-width: 200px; /* Mobilde logo boyutunu küçült */
+                max-width: 200px; 
             }
 
             .contact-item h2 {
@@ -75,6 +93,14 @@
 
             .contact-item p {
                 font-size: 1rem;
+            }
+
+            .privacy-policy h2 {
+                font-size: 1.8rem;
+            }
+
+            .privacy-policy p {
+                font-size: 0.9rem;
             }
 
             .container {
@@ -102,6 +128,24 @@
                     <h2>Mobil İletişim</h2>
                     <p><a href="tel:+905340810202">+90 534 081 02 02</a></p>
                 </div>
+            </section>
+            <section class="privacy-policy">
+                <h2>Gizlilik Politikası</h2>
+                <p>
+                    OBRAŞ Bilezik olarak, kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu gizlilik politikası, topladığımız bilgileri, bu bilgileri nasıl kullandığımızı ve nasıl koruduğumuzu açıklamaktadır.
+                </p>
+                <p>
+                    <strong>Topladığımız Bilgiler:</strong> Web sitemizi ziyaret ettiğinizde, yalnızca iletişim amacıyla sağladığınız bilgileri (örneğin, telefon numarası veya e-posta adresi) toplayabiliriz. Bu bilgiler, yalnızca sizinle iletişim kurmak için kullanılır.
+                </p>
+                <p>
+                    <strong>Bilgilerin Kullanımı:</strong> Topladığımız bilgiler, hizmetlerimizi geliştirmek ve sizinle iletişim kurmak için kullanılır. Bu bilgileri üçüncü taraflarla paylaşmayız, ancak yasal bir zorunluluk durumunda bu bilgileri paylaşabiliriz.
+                </p>
+                <p>
+                    <strong>Güvenlik:</strong> Bilgilerinizin güvenliğini sağlamak için gerekli teknik ve idari önlemleri alıyoruz. Ancak, internet üzerinden veri aktarımının tamamen güvenli olmadığını unutmayın.
+                </p>
+                <p>
+                    Daha fazla bilgi için bizimle iletişime geçebilirsiniz: <a href="tel:+905340810202">+90 534 081 02 02</a>.
+                </p>
             </section>
         </main>
     </div>
